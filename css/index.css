@@ -1,14 +1,41 @@
 @charset "UTF-8";
 @import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
-@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
 @font-face {
   font-family: "LeferiPoint-SpecialA";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-body {
+@font-face {
   font-family: "NanumSquare";
+  font-weight: 400;
+  src: url(NanumSquareR.eot);
+  src: local("☺"), url(NanumSquareR.eot?#iefix) format("embedded-opentype"), url(NanumSquareR.woff) format("woff"), url(NanumSquareR.ttf) format("truetype");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 700;
+  src: url(NanumSquareB.eot);
+  src: local("☺"), url(NanumSquareB.eot?#iefix) format("embedded-opentype"), url(NanumSquareB.woff) format("woff"), url(NanumSquareB.ttf) format("truetype");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 800;
+  src: url(NanumSquareEB.eot);
+  src: local("☺"), url(NanumSquareEB.eot?#iefix) format("embedded-opentype"), url(NanumSquareEB.woff) format("woff"), url(NanumSquareEB.ttf) format("truetype");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 300;
+  src: url(NanumSquareL.eot);
+  src: local("☺"), url(NanumSquareL.eot?#iefix) format("embedded-opentype"), url(NanumSquareL.woff) format("woff"), url(NanumSquareL.ttf) format("truetype");
+}
+h1, h2, h3, h4, h5, h6, p, li, ol, span, em {
+  font-family: "NanumSquare";
+}
+
+.en_lang {
+  font-family: "LeferiPoint-SpecialA";
 }
 
 /* 초기화 */
@@ -131,6 +158,20 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.section_01_bg .gnb {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  width: 100vw;
+  text-align: center;
+  background-color: white;
+}
+.section_01_bg .gnb .logo img {
+  padding: 33px 0;
+}
 .section_01_bg .visual_title img {
   position: absolute;
   top: 50%;
@@ -143,4 +184,70 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.sec03_content h1 {
+  font-size: 32px;
+}
+.sec03_content p {
+  font-size: 24px;
+  margin-top: 27px;
+  margin-bottom: 32px;
+}
+
+.section_04 {
+  background-color: #ECECEC;
+}
+
+.content_title {
+  padding: 0px 15px;
+}
+
+.content_text {
+  height: 100px;
+  padding: 0px 15px;
+}
+
+.guide {
+  padding: 0px 15px;
+}
+.guide span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 4px;
+  background-color: #11172B;
+}
+.guide span:last-child {
+  display: inline-block;
+  width: 46px;
+  height: 4px;
+  background-color: #E66D6C;
+  position: relative;
+  right: 4px;
+}
+
+.sec5_content {
+  background-color: #ECECEC;
+}
+.sec5_content .sec5_content_title {
+  padding: 16px;
+}
+.sec5_content .sec5_content_title h1 {
+  font-size: 32px;
+}
+.sec5_content .sec5_content_title h1 span {
+  color: #E66D6C;
+}
+.sec5_content .sec5_content_title em {
+  font-style: normal;
+  font-size: 24px;
+}
+.sec5_content .sec5_content_title p {
+  font-size: 16px;
+}
+.sec5_content .sec5_content_text {
+  padding: 16px;
+}
+.sec5_content .sec5_content_text p {
+  font-size: 16px;
 }
