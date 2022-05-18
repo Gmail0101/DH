@@ -1,0 +1,26 @@
+@import "restyle";
+
+
+.section_01_bg{
+    position: relative;
+    background-image: url(/images/main/sec1_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .visual_title{
+        img{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.section_02_bg{
+    background-image: url(/images/main/sec2_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
