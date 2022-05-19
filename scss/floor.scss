@@ -1,0 +1,179 @@
+@import "restyle";
+@import "footer";
+@import "swiper";
+
+
+.section_bg{
+    background-color: #ECECEC;
+}
+
+.section_01_title{
+    padding: 16px;
+    
+    h1{
+        font-size: 48px;
+    }
+
+    .line01{
+        display: inline-block;
+        width:134px;
+        height: 4px;
+        background-color: #11172B;
+    }
+    .line02{
+        position:relative;
+        left: -4px;
+        display: inline-block;
+        width:46px;
+        height: 4px;
+        background-color: #E66D6C;
+    }
+}
+
+
+
+.slider_content_wrap{
+    height: 610px;              //px
+    position: relative;
+
+
+    .slider_content{
+        position: absolute;
+        top:40%;
+        transform: translateY(-50%);
+
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .slider_content_image{
+        position: absolute;    
+        bottom:0;
+    }
+}
+
+
+.pd-t{
+    padding: 3.5px 0px;
+}
+
+
+
+.sec_05_content{
+    padding: 30px;
+    p{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    span{
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+// 부트스트랩 container-fluid 수정
+
+.container-fluid{
+    padding: 0;
+}
+
+
+
+#sec06{
+    position: relative;
+
+    
+    .side_appliances{
+        position: absolute;
+        left: 0;
+        top:0;
+        background-color: #11172B;
+        height:100vh;
+
+        h1{
+            color:white;
+            writing-mode: tb-rl;
+            padding: 35px
+        }
+    }
+}
+
+.appliances_wrap{
+    background-color: #EEEEEF;
+    position: relative;
+    left: 95px;
+    top:0;
+    height: 100vh;
+}
+.app_content_img{
+    padding: 30px 0px;
+    img{
+        width:35%;
+    }
+}
+.app_content_text{
+    h1{
+        font-size: 24px;
+        font-weight: 900;
+    }
+}
+
+.sec06_content_img01{
+    margin-top: 59px;
+}
+.sec06_content_img03{
+    margin-top: 33px;
+}
+
+
+
+
+.sec_07_content_title{
+    background-color: #11172B;
+    margin-bottom: 50px;
+
+    h1{
+        font-size: 28px;
+        color:white;
+        font-weight: 900;
+        text-align: center;
+        padding: 15px;
+        span{
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+.sec_07_content_wrap{
+    display: flex;
+    .sec_07_content_img{
+        margin: 0;
+    }
+    .sec_07_content_textbox{
+        margin: 0;
+        padding: 0px 0px 0px 30px;
+
+        em{
+            font-style: normal;
+            color:#545D71;
+            font-size: 24px;
+            font-weight: 900;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+}

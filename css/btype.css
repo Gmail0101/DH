@@ -172,141 +172,102 @@ a:hover {
 }
 
 .section_01_bg {
-  position: relative;
-  background-image: url(/images/main/sec1_bg.png);
+  background-image: url(/images/btype/btype_img.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
-.section_01_bg .gnb {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 100px;
-  width: 100vw;
+
+.visual_title {
   text-align: center;
-  background-color: white;
 }
-.section_01_bg .gnb .logo img {
-  padding: 33px 0;
+.visual_title h1 {
+  color: #fff;
+  font-size: 100px;
 }
-.section_01_bg .visual_title img {
+.visual_title h1 span {
+  font-size: 150px;
+}
+
+#sec03 {
+  position: relative;
+}
+#sec03 .side_content_wrap {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.section_02_bg {
-  background-image: url(/images/main/sec2_bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.sec03_content h1 {
-  font-size: 32px;
-}
-.sec03_content p {
-  font-size: 24px;
-  margin-top: 27px;
-  margin-bottom: 32px;
-}
-
-.section_04 {
-  background-color: #ECECEC;
-}
-
-.content_title {
-  padding: 0px 15px;
-}
-
-.content_text {
-  height: 100px;
-  padding: 0px 15px;
-  margin: 24px 0px;
-}
-.content_text p {
-  font-size: 16px;
-}
-
-.guide {
-  padding: 0px 15px;
-}
-.guide span:first-child {
-  display: inline-block;
-  width: 135px;
-  height: 4px;
-  background-color: #11172B;
-}
-.guide span:last-child {
-  display: inline-block;
-  width: 46px;
-  height: 4px;
-  background-color: #E66D6C;
-  position: relative;
-  right: 4px;
-}
-
-.sec5_content {
-  background-color: #ECECEC;
-  position: relative;
-  transition: all 0.7s;
-}
-.sec5_content:hover {
-  bottom: 20px;
-  transition: all 0.7s;
-}
-.sec5_content .sec5_content_images {
-  width: 100%;
-  height: 460px;
-  overflow: hidden;
-  position: relative;
-}
-.sec5_content .sec5_content_images:hover .sec5_image_hover {
-  opacity: 1;
-  transition: all 0.7s;
-}
-.sec5_content .sec5_content_images .sec5_image_hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
   top: 0;
-  opacity: 0;
-  cursor: pointer;
+  left: 0;
+  background-color: #08070D;
+  width: 18.75vw;
+  height: 100vh;
 }
-.sec5_content .sec5_content_images .sec5_image_hover a {
-  display: block;
+#sec03 .side_content_wrap .side_content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#sec03 .side_content_wrap .side_content .side_content_title h1 {
+  font-size: 35px;
+  font-weight: 900;
   color: white;
+}
+#sec03 .side_content_wrap .side_content .side_content_title h1 span {
+  font-size: 60px;
+}
+#sec03 .side_content_wrap .side_content .side_content_title em {
+  font-style: normal;
+  display: block;
   width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 0px;
   text-align: center;
+  font-size: 24px;
+  font-weight: 900;
 }
-.sec5_content .sec5_content_title {
-  padding: 16px;
+#sec03 .side_content_wrap .side_content .side_content_text {
+  margin-top: 30px;
 }
-.sec5_content .sec5_content_title h1 {
+#sec03 .side_content_wrap .side_content .side_content_text span {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-bottom: 10px;
+}
+#sec03 .side_content_wrap .side_content .side_content_text p {
+  font-size: 16px;
+  color: white;
+}
+
+.sec02_content_title {
+  padding-left: 16px;
+  margin-bottom: 37px;
+}
+.sec02_content_title h1 {
   font-size: 32px;
 }
-.sec5_content .sec5_content_title h1 span {
-  color: #E66D6C;
+.sec02_content_title h1 span {
+  font-size: 48px;
 }
-.sec5_content .sec5_content_title em {
+.sec02_content_title h1 span i {
+  color: #E66D6C;
   font-style: normal;
+}
+
+.sec03_content_title p {
+  font-size: 16px;
+  color: #717071;
+  font-weight: 900;
+}
+
+.sec02_content_text {
+  padding: 24px 0px;
+}
+.sec02_content_text p {
   font-size: 24px;
 }
-.sec5_content .sec5_content_title p {
-  font-size: 16px;
-}
-.sec5_content .sec5_content_text {
-  padding: 16px;
-}
-.sec5_content .sec5_content_text p {
-  font-size: 16px;
+
+.sec_atype_image {
+  margin-top: 50px;
 }

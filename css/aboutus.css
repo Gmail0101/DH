@@ -171,142 +171,130 @@ a:hover {
   font-weight: bold;
 }
 
-.section_01_bg {
+.section:nth-child(odd) {
+  background-color: #DEF1F9;
+}
+
+.sec01_content_wrap {
   position: relative;
-  background-image: url(/images/main/sec1_bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
-.section_01_bg .gnb {
+.sec01_content_wrap .sec01_content_text {
   position: absolute;
-  z-index: 1;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 100px;
-  width: 100vw;
-  text-align: center;
-  background-color: white;
+  left: -15%;
 }
-.section_01_bg .gnb .logo img {
-  padding: 33px 0;
+.sec01_content_wrap .sec01_content_text h1 {
+  font-size: 70px;
 }
-.section_01_bg .visual_title img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.sec01_content_wrap .sec01_content_text p {
+  font-size: 22px;
+}
+.sec01_content_wrap .sec01_content_text p span {
+  color: #C48382;
 }
 
-.section_02_bg {
-  background-image: url(/images/main/sec2_bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.sec_02_content_title h1 {
+  font-size: 48px;
+  font-weight: bold;
 }
 
-.sec03_content h1 {
-  font-size: 32px;
+.sec_02_content_video iframe {
+  width: 100%;
+  height: 670px;
 }
-.sec03_content p {
+
+.sec03_content_text {
+  padding: 30px 0px;
+}
+.sec03_content_text p {
   font-size: 24px;
-  margin-top: 27px;
-  margin-bottom: 32px;
+  font-weight: 900;
 }
 
-.section_04 {
-  background-color: #ECECEC;
+.media_title > h1 {
+  font-size: 40px;
+  font-weight: 800;
 }
 
-.content_title {
-  padding: 0px 15px;
+.mail {
+  padding: 12px;
 }
 
-.content_text {
-  height: 100px;
-  padding: 0px 15px;
-  margin: 24px 0px;
-}
-.content_text p {
-  font-size: 16px;
-}
-
-.guide {
-  padding: 0px 15px;
-}
-.guide span:first-child {
-  display: inline-block;
-  width: 135px;
-  height: 4px;
-  background-color: #11172B;
-}
-.guide span:last-child {
-  display: inline-block;
-  width: 46px;
-  height: 4px;
-  background-color: #E66D6C;
-  position: relative;
-  right: 4px;
-}
-
-.sec5_content {
-  background-color: #ECECEC;
-  position: relative;
-  transition: all 0.7s;
-}
-.sec5_content:hover {
-  bottom: 20px;
-  transition: all 0.7s;
-}
-.sec5_content .sec5_content_images {
+.mail > label {
+  background-color: #DEF1F9;
   width: 100%;
-  height: 460px;
-  overflow: hidden;
-  position: relative;
+  height: 85px;
+  line-height: 85px;
+  font-size: 26px;
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 7%;
+  border: 1px solid #444;
 }
-.sec5_content .sec5_content_images:hover .sec5_image_hover {
-  opacity: 1;
-  transition: all 0.7s;
-}
-.sec5_content .sec5_content_images .sec5_image_hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  opacity: 0;
-  cursor: pointer;
-}
-.sec5_content .sec5_content_images .sec5_image_hover a {
-  display: block;
+
+.mail_icon {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 3%;
+  transform: translateY(-50%);
+}
+
+/* icon 위치 */
+.mail__icon {
+  left: 2.5%;
+}
+
+.mail___icon {
+  left: 3.5%;
+}
+
+/* icon 위치 */
+.mail > label > img {
+  padding: 0px 15px 0px 30px;
+}
+
+.mail > label > input {
+  border: 0;
+  outline: 0;
+  width: 75%;
+  height: 83px;
+  font-size: 26px;
+  padding-left: 2%;
+  float: right;
+  border-radius: 0 15px 15px 0px;
+}
+
+.mail_box > span {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.mail_box > textarea {
+  width: 100%;
+  outline: none;
+  border-radius: 15px;
+  padding: 60px 15px 15px 15px;
+}
+
+.mail_check > label {
+  font-size: 16px;
+  margin-top: 46px;
+  margin-bottom: 24px;
+}
+
+.mail_submit {
+  margin-bottom: 100px;
+}
+
+.mail_submit > input {
+  width: 300px;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  background-color: #52ACD2;
   color: white;
-  width: 100%;
-  text-align: center;
-}
-.sec5_content .sec5_content_title {
-  padding: 16px;
-}
-.sec5_content .sec5_content_title h1 {
-  font-size: 32px;
-}
-.sec5_content .sec5_content_title h1 span {
-  color: #E66D6C;
-}
-.sec5_content .sec5_content_title em {
-  font-style: normal;
-  font-size: 24px;
-}
-.sec5_content .sec5_content_title p {
-  font-size: 16px;
-}
-.sec5_content .sec5_content_text {
-  padding: 16px;
-}
-.sec5_content .sec5_content_text p {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 800;
 }

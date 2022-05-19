@@ -1,5 +1,5 @@
 @import "restyle";
-
+@import "footer";
 
 
 
@@ -70,6 +70,10 @@
 .content_text{
     height: 100px;
     padding: 0px 15px;
+    margin: 24px 0px;
+    p{
+        font-size: 16px;
+    }
 }
 
 
@@ -100,7 +104,43 @@
 
 .sec5_content{
     background-color: #ECECEC;
+    position:relative;
+    transition: all 0.7s;
+    &:hover{
+        bottom:20px;
+        transition: all 0.7s;
+    }
+    .sec5_content_images{
+        width:100%;
+        height: 460px;              // px
+        overflow: hidden;
+        position:relative;
 
+        &:hover .sec5_image_hover{
+            opacity: 1;
+            transition: all 0.7s;
+        }
+
+        .sec5_image_hover{
+            position:absolute;
+            width:100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            top:0;
+            opacity: 0;
+            cursor: pointer;
+            a{
+                display: block;
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color:white;
+                width:100%;
+                text-align: center;
+            }
+        }
+    }
     .sec5_content_title{
         padding: 16px;
 

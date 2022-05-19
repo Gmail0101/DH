@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DH</title>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    
+    <!-- FullPage JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    
+    <!-- FullPage CSS -->
+    <link href="./lib/fullpage/fullpage.min.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- bootstrap JS -->
+    <link href="./lib/bootstrap/bootstrap.min.js" rel="stylesheet" type="text/css"/>
+
+    <!-- bootstrap CSS -->
+    <link href="./lib/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Main Style CSS-->
+    <link href="./css/aboutus.min.css" rel="stylesheet" type="text/css"/>
+
+
+
+</head>
+<body>
+
+
+    <div id="fullpage">
+
+
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec01_content_wrap">
+                            <div class="sec01_content_img">
+                                <img class="MaxIMG" src="./images/about/about_img0001.png" alt="이미지">
+                            </div>
+
+                            <div class="sec01_content_text">
+                                <h1>위치가 프리미엄이다!</h1>
+                                <p>제주한라산과 제주바다를 한눈에 담을 수 있고</p>
+                                <p>제주시 중심 생활권 가까이에 위치해</p>
+                                <p>다채로운 삶을 누릴수 있는</p>
+                                <p>여기는 <span>디바인 힐스</span>입니다</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec02_content_wrap">
+                            <div class="sec_02_content_title text-center">
+                                <h1>홍보영상</h1>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12">
+                        <div class="sec02_content_wrap">
+                            <div class="sec_02_content_video">
+                                <iframe src="https://www.youtube.com/embed/kVqqXya070U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec03_content_wrap">
+                            <div class="sec_02_content_title text-center">
+                                <h1>찾아오시는길</h1>
+                            </div>
+                            <div class="sec03_content_img">
+                                <img class="MaxIMG" src="./images/about/map.png" alt="이미지">
+                            </div>
+                            <div class="sec03_content_text">
+                                <p>주소 : 제주시 애조로 1228</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec03_content_wrap">
+                            <div class="sec_02_content_title">
+                                <h1 class="text-center">문의하기</h1>
+                            </div>
+                        </div>
+
+
+                        <form action="./emailSendAction.jsp" method="post">
+                            
+                            <div class="col-lg-12 mail">
+                                <img class="mail_icon mail___icon" src="./images/mail/icon_02.png" alt="icon02">
+                                <label for="username">
+                                    성함
+                                    <input type="text" id="username" name="username" placeholder="문의자 성함을 입력해주세요">
+                                </label>
+                            </div>
+                            
+                            <div class="col-lg-12 mail">
+                                <img class="mail_icon" src="./images/mail/icon_03.png" alt="icon03">
+                                <label for="usermail">
+                                    이메일
+                                    <input type="text" id="usermail" name="usermail" placeholder="이메일 주소를 입력해주세요.">
+                                </label>
+                            </div>
+                            
+                            <div class="col-lg-12 mail">
+                                <img class="mail_icon" src="./images/mail/icon_04.png" alt="icon04">
+                                <label for="userphone">
+                                    연락처
+                                    <input type="text" id="userphone" name="userphone" placeholder="전화번호를 입력해주세요." maxlength="13">
+                                </label>
+                            </div>
+        
+                            <div class="col-lg-12 mail_box">
+                                <span>문의내용</span>
+                                <textarea id="usercontent" name="usercontent" id="" cols="30" rows="10"></textarea>
+                            </div>
+        
+                            <div class="col-lg-12 text-center mail_check">
+                                <input type="checkbox" id="checkbox" name="chk">
+                                <label for="checkbox">개인정보 활용에 동의합니다.</label>
+                            </div>
+                            
+                            <div class="col-lg-12 text-center mail_submit">
+                                <input type="submit" name="submit" value="메일보내기">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section fp-auto-height" id="section6">
+            <div class="footer">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-6">
+                            <div class="footer_logo">
+                                <img src="./images/logo/footer_logo.png" alt="로고이미지">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="footer_content">
+                                <p>주소 : 제주시 애조로 1228, 2층</p>
+                                <p>분양대행 : (주)디바인힐 | 문의 : <span class="footer_phone">1533-7174</span></p>
+                                <p>&nbsp;</p>
+                                <p>Copyright © DIVINE HILLS. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+    </div>
+    <script>
+    new fullpage('#fullpage', {
+        //options here
+        autoScrolling:true,
+        scrollHorizontally: true,
+        fitToSection: true,
+        scrollingSpeed: 500,
+    })
+    </script>
+</body>
+</html>
