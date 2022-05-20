@@ -155,6 +155,10 @@ a:hover {
   z-index: 1;
 }
 
+.pd-reset {
+  padding: 0;
+}
+
 /* 폰트 설정*/
 .footer {
   background-color: #101527;

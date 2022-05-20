@@ -118,6 +118,10 @@ h1,h2,h3,h4,h5,h6,p,li,ol,span,em{
   }
 }
 
+.pd-reset{
+  padding: 0;
+}
+
 
   /* 폰트 설정*/
   @mixin text_style($size,$color,$weight){

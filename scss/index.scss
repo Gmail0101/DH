@@ -167,3 +167,152 @@
         }
     }
 }
+
+
+
+
+
+/* 1200px 이하 디바이스 */
+
+@media (min-width:$layout-desktop) and (max-width:$layout-desktop-lg){
+
+
+}
+
+/* 768 디바이스  */
+@media (min-width:$layout-tablet) and (max-width:$layout-tablet-lg){
+    .section_01_bg{
+        background-image: url(../images/main/768/sec1_bg.png);
+    }
+
+    .section_02_bg{
+        background-image: url(../images/main/768/sec2_bg.png);
+    }
+
+
+    .content_title{
+
+        h1{
+            font-size: 32px;
+        }
+    }
+    .content_text{
+        height: 145px;
+    }
+
+    .sec5_content {
+
+        .sec5_content_title{
+            h1{
+                font-size: 18px;
+            }
+            em{
+                font-size: 14px;
+            }
+        }
+        .sec5_content_text{
+            p{
+                font-size: 12px;
+            }
+        }
+        .sec5_content_images{
+            height: auto ;
+        }
+    }
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : $layout-mobile) {
+    
+    .mb-30{
+        overflow: hidden;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+    .section_01_bg{
+        background-image: url(../images/main/320/sec1_bg.png);
+    }
+
+    .section_02_bg{
+        background-image: url(../images/main/320/sec2_bg.png);
+    }
+
+    .section_01_bg .gnb .logo img{
+        padding: 15px;
+    }
+
+    .section_01_bg .gnb{
+        height: auto;
+    }
+
+    .burger-icon .burger-sticks{
+        width:24px;
+
+        &::before{
+            top:5px;
+        }
+        &::after{
+            top:-5px;
+        }
+    }
+
+
+    .sec03_content{
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .content_title{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .content_text{
+        height: auto;
+        p{
+            font-size: 14px;
+        }
+    }
+
+
+    .sec5_content .sec5_content_images{
+        height: auto;
+    }
+
+    .sec5_content{
+        margin: 30px 0px;
+        .sec5_content_title{
+            h1{
+                font-size: 18px;
+            }
+            em{
+                font-size: 14px;
+            }
+        }
+        .sec5_content_text{
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .footer_logo{
+        padding: 25px 0;
+    }
+    .footer_content{
+        padding: 25px 0;
+        p{
+            font-size: 14px;
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+}
