@@ -34,7 +34,50 @@
 
 
 
-        <div class="section section_01_bg">
+        <div class="section section_01_bg" id="gnb-po-r">
+            <div class="gnb">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/logo/logo.png" alt="로고">
+                    </a>
+                </div>
+                <div class="gnbmenu">
+                    <input class="burger-check" type="checkbox" id="burger-check"/>
+                    <label class="burger-icon" for="burger-check">
+                        <span class="burger-sticks"></span>
+                    </label>
+                    <div class="menu">
+                        <div class="menu_wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="menu-nav">
+                                            <li>단지정보
+                                                <ul class="submenu">
+                                                    <li><a class="en_lang" href="floor.html">floor</a></li>
+                                                    <li><a class="en_lang" href="atype.html">Atype</a></li>
+                                                    <li><a class="en_lang" href="btype.html">Btype</a></li>
+                                                    <li><a class="en_lang" href="ctype.html">Ctype</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="aboutus.html">분양정보</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-info">
+                            <p>제주시 애조로 1228</p>
+                            <p>(주)디바인힐</p>
+                            <strong>1533-7174</strong>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
             <div class="visual_title">
                 <h1 class="en_lang"><span class="en_lang">C</span>TYPE</h1>
             </div>
@@ -200,6 +243,7 @@
         scrollHorizontally: true,
         fitToSection: true,
         scrollingSpeed: 500,
+        responsiveWidth: 767,       // 모바일 fullpage 비활성화 767px 이하 
     })
     </script>
     

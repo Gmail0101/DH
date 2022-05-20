@@ -1,11 +1,12 @@
 @import "restyle";
 @import "footer";
+@import "header";
 
 
 
 .section_01_bg{
     position: relative;
-    background-image: url(/images/main/sec1_bg.png);
+    background-image: url(../images/main/sec1_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -39,7 +40,7 @@
 }
 
 .section_02_bg{
-    background-image: url(/images/main/sec2_bg.png);
+    background-image: url(../images/main/sec2_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

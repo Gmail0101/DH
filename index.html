@@ -23,6 +23,9 @@
     <!-- Main Style CSS-->
     <link href="./css/index.min.css" rel="stylesheet" type="text/css"/>
 
+    <!-- Main Style CSS-->
+    <link href="./css/header.min.css" rel="stylesheet" type="text/css"/>
+
 
 
 </head>
@@ -38,7 +41,43 @@
 
             <div class="gnb">
                 <div class="logo">
-                    <img src="./images/logo/logo.png" alt="로고">
+                    <a href="index.html">
+                        <img src="./images/logo/logo.png" alt="로고">
+                    </a>
+                </div>
+                <div class="gnbmenu">
+                    <input class="burger-check" type="checkbox" id="burger-check"/>
+                    <label class="burger-icon" for="burger-check">
+                        <span class="burger-sticks"></span>
+                    </label>
+                    <div class="menu">
+                        <div class="menu_wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="menu-nav">
+                                            <li>단지정보
+                                                <ul class="submenu">
+                                                    <li><a class="en_lang" href="floor.html">floor</a></li>
+                                                    <li><a class="en_lang" href="atype.html">Atype</a></li>
+                                                    <li><a class="en_lang" href="btype.html">Btype</a></li>
+                                                    <li><a class="en_lang" href="ctype.html">Ctype</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="aboutus.html">분양정보</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-info">
+                            <p>제주시 애조로 1228</p>
+                            <p>(주)디바인힐</p>
+                            <strong>1533-7174</strong>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -194,8 +233,8 @@
                             <div class="sec5_content">
                                 <div class="sec5_content_images">
                                     <img class="MaxIMG" src="./images/main/sec_05_img01.png" alt="이미지">
-                                    <div class="sec5_image_hover" onclick="location.href='#';">
-                                        <a href="">
+                                    <div class="sec5_image_hover" onclick="location.href='atype.html';">
+                                        <a href="atype.html">
                                             클릭하시면 해당페이지로 이동합니다.
                                         </a>
                                     </div>
@@ -219,8 +258,8 @@
                             <div class="sec5_content">
                                 <div class="sec5_content_images">
                                     <img class="MaxIMG" src="./images/main/sec_05_img02.png" alt="이미지">
-                                    <div class="sec5_image_hover">
-                                        <a href="#">
+                                    <div class="sec5_image_hover"  onclick="location.href='btype.html';">
+                                        <a href="btype.html">
                                             클릭하시면 해당페이지로 이동합니다.
                                         </a>
                                     </div>
@@ -243,8 +282,8 @@
                             <div class="sec5_content">
                                 <div class="sec5_content_images">
                                     <img class="MaxIMG" src="./images/main/sec_05_img03.png" alt="이미지">
-                                    <div class="sec5_image_hover">
-                                        <a href="#">
+                                    <div class="sec5_image_hover"  onclick="location.href='ctype.html';">
+                                        <a href="ctype.html">
                                             클릭하시면 해당페이지로 이동합니다.
                                         </a>
                                     </div>
@@ -303,7 +342,10 @@
         scrollHorizontally: true,
         fitToSection: true,
         scrollingSpeed: 500,
-    })
+        responsiveWidth: 767,       // 모바일 fullpage 비활성화 767px 이하 
+    });
     </script>
+
+    <script src="./js/header.js"></script>
 </body>
 </html>
