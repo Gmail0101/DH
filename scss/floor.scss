@@ -175,3 +175,171 @@
     }
 
 }
+
+
+
+
+
+
+
+/* 1200px 이하 디바이스 */
+
+@media (min-width:$layout-desktop) and (max-width:$layout-desktop-lg){
+
+
+}
+
+/* 768 디바이스  */
+@media (min-width:$layout-tablet) and (max-width:$layout-tablet-lg){
+    .slider_content_wrap{
+        height: auto;
+
+        .slider_content{
+            position: unset;
+            transform:none;
+        }
+        .slider_content_image{
+            right:0;
+        }
+    }
+
+    .overforw-h{
+        overflow: hidden;
+      }
+
+
+      .appliances_wrap{
+          background-color: white;
+      }
+
+      
+      .side_appliances{
+          height:231vh !important;
+          z-index: 1;
+      }
+
+      .sec_07_content_title{
+          h1{   
+              font-size: 22px;
+              span{
+                font-size: 16px;
+              }
+          }
+      }
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : $layout-mobile) {
+
+    .section_01_title h1{
+        font-size: 24px;
+    }
+
+    .slider_content_wrap{
+        height: auto;
+        .slider_content{
+            position: unset;
+            transform:none;
+
+            p{
+                font-size: 14px;
+            }
+        }
+        .slider_content_image{
+            top:100%;
+        }
+    }
+
+    .overforw-h{
+        overflow: hidden;
+    }
+
+
+    .sec_05_content{
+        padding: 30px 16px;
+        p{
+            font-size: 12px;
+        }
+        span{
+            font-size: 12px;
+        }
+    }
+    #sec06 .side_appliances{
+        z-index: 1;
+        height: 300vh;
+        h1{
+            padding: 12px;
+            font-size: 12px;
+        }
+    
+    }
+    .appliances_wrap{
+        left:0;
+        background-color: white;
+        height: 110vh;
+        .app_content_text{
+            h1{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+
+
+    .sec_07_content_title{
+        h1{
+            font-size: 20px;
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+
+
+    .sec_07_content_wrap{
+        .sec_07_content_img{
+            img{
+                width:30px;
+            }
+        }
+        .sec_07_content_textbox{
+            em{
+                font-size: 14px;
+            }
+        }
+    }
+
+
+
+    .control_img{
+        padding: 10px 0;
+    }
+
+
+
+    .mt-70{
+        margin-top: 0;
+    }
+    .mt-10{
+        margin-top: 0;
+    }
+
+
+
+    .footer_logo{
+        padding: 25px 0;
+    }
+    .footer_content{
+        padding: 25px 0;
+        p{
+            font-size: 14px;
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+}

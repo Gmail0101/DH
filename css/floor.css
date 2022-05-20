@@ -656,3 +656,133 @@ li {
 .sec_07_content_wrap .sec_07_content_textbox p {
   font-size: 16px;
 }
+
+/* 1200px 이하 디바이스 */
+/* 768 디바이스  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_content_wrap {
+    height: auto;
+  }
+  .slider_content_wrap .slider_content {
+    position: unset;
+    transform: none;
+  }
+  .slider_content_wrap .slider_content_image {
+    right: 0;
+  }
+
+  .overforw-h {
+    overflow: hidden;
+  }
+
+  .appliances_wrap {
+    background-color: white;
+  }
+
+  .side_appliances {
+    height: 231vh !important;
+    z-index: 1;
+  }
+
+  .sec_07_content_title h1 {
+    font-size: 22px;
+  }
+  .sec_07_content_title h1 span {
+    font-size: 16px;
+  }
+}
+/* 767 이하 디바이스  */
+@media (max-width: 767px) {
+  .section_01_title h1 {
+    font-size: 24px;
+  }
+
+  .slider_content_wrap {
+    height: auto;
+  }
+  .slider_content_wrap .slider_content {
+    position: unset;
+    transform: none;
+  }
+  .slider_content_wrap .slider_content p {
+    font-size: 14px;
+  }
+  .slider_content_wrap .slider_content_image {
+    top: 100%;
+  }
+
+  .overforw-h {
+    overflow: hidden;
+  }
+
+  .sec_05_content {
+    padding: 30px 16px;
+  }
+  .sec_05_content p {
+    font-size: 12px;
+  }
+  .sec_05_content span {
+    font-size: 12px;
+  }
+
+  #sec06 .side_appliances {
+    z-index: 1;
+    height: 300vh;
+  }
+  #sec06 .side_appliances h1 {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .appliances_wrap {
+    left: 0;
+    background-color: white;
+    height: 110vh;
+  }
+  .appliances_wrap .app_content_text h1 {
+    font-size: 16px;
+  }
+  .appliances_wrap .app_content_text p {
+    font-size: 12px;
+  }
+
+  .sec_07_content_title h1 {
+    font-size: 20px;
+  }
+  .sec_07_content_title h1 span {
+    font-size: 13px;
+  }
+
+  .sec_07_content_wrap .sec_07_content_img img {
+    width: 30px;
+  }
+  .sec_07_content_wrap .sec_07_content_textbox em {
+    font-size: 14px;
+  }
+
+  .control_img {
+    padding: 10px 0;
+  }
+
+  .mt-70 {
+    margin-top: 0;
+  }
+
+  .mt-10 {
+    margin-top: 0;
+  }
+
+  .footer_logo {
+    padding: 25px 0;
+  }
+
+  .footer_content {
+    padding: 25px 0;
+  }
+  .footer_content p {
+    font-size: 14px;
+  }
+  .footer_content p span {
+    font-size: 16px;
+  }
+}
