@@ -370,6 +370,51 @@ li {
   font-size: 48px;
 }
 
+/* 1200px 이하 디바이스 */
+/* 768 디바이스  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-info {
+    right: 5%;
+  }
+}
+/* 767 이하 디바이스  */
+@media (max-width: 767px) {
+  .menu_wrap {
+    width: 100%;
+  }
+
+  .menu-info {
+    right: 5%;
+  }
+
+  .menu-nav li {
+    font-size: 20px;
+  }
+
+  .menu-info p {
+    font-size: 14px;
+  }
+
+  .menu-info strong {
+    font-size: 20px;
+  }
+
+  .menu-nav li::after {
+    height: 13px;
+    width: 100px;
+    top: 33px;
+  }
+
+  .menu-nav li::before {
+    height: 13px;
+    width: 13px;
+    top: 33px;
+  }
+
+  .menu-nav li:hover::before {
+    left: 105px;
+  }
+}
 .section_01_bg {
   position: relative;
   background-image: url(../images/main/sec1_bg.png);

@@ -210,3 +210,65 @@
       font-size: 48px;
     }
   }
+
+
+
+
+
+  
+
+
+/* 1200px 이하 디바이스 */
+
+@media (min-width:$layout-desktop) and (max-width:$layout-desktop-lg){
+
+
+}
+
+/* 768 디바이스  */
+@media (min-width:$layout-tablet) and (max-width:$layout-tablet-lg){
+
+  .menu-info{
+    right:5%;
+  }
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : $layout-mobile) {
+
+
+  .menu_wrap{
+    width:100%;
+  }
+
+  .menu-info{
+    right:5%;
+  }
+
+  .menu-nav li{
+    font-size: 20px;  
+  }
+  .menu-info p{
+    font-size: 14px;  
+  }
+  .menu-info strong{
+    font-size: 20px;
+  }
+
+  .menu-nav li::after{
+    height: 13px;
+    width:100px;
+    top:33px;
+  }
+  .menu-nav li::before{
+    height: 13px;
+    width: 13px;
+    top:33px;
+  }
+
+  .menu-nav li:hover::before{
+    left:105px;
+  }
+
+}
