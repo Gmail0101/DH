@@ -126,3 +126,148 @@
 .sec_atype_image{
     margin-top: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1200px 이하 디바이스 */
+
+@media (min-width:$layout-desktop) and (max-width:$layout-desktop-lg){
+
+
+}
+
+/* 768 디바이스  */
+@media (min-width:$layout-tablet) and (max-width:$layout-tablet-lg){
+
+    #sec03 .side_content_wrap{
+        position: relative;
+        width:100vw;
+        background-color: #ECECEC;
+    }
+
+    #sec03 .side_content_wrap .side_content .side_content_title h1{
+        font-size:50px;
+        color:#333333;
+        span{
+            font-size: 100px;
+        }
+    }
+    #sec03 .side_content_wrap .side_content .side_content_title em{
+        background-color: #08070D;
+        color:white;
+        font-size: 32px;
+    }
+    #sec03 .side_content_wrap .side_content .side_content_text p{
+        font-size: 24px;
+        color:#08070D;
+        &:last-child{
+            font-weight: 900;
+        }
+    }
+    #sec03 .side_content_wrap .side_content .side_content_text span{
+        background-color: #08070D;
+    }
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : $layout-mobile) {
+
+
+    .section_01_bg .gnb .logo img{
+        padding: 15px;
+    }
+
+    .section_01_bg .gnb{
+        height: auto;
+    }
+    
+    .burger-icon .burger-sticks{
+        width:24px;
+
+        &::before{
+            top:5px;
+        }
+        &::after{
+            top:-5px;
+        }
+    }
+
+
+
+
+    .section_01_bg{
+        background-image: url(../images/btype/768/btype_img.png);
+    }
+
+    .visual_title{
+        h1{
+            span{
+                font-size: 65px;
+            }
+            font-size: 40px;
+        }
+    }
+
+    .sec02_content_title{
+        h1{
+            font-size: 14px;
+            span{
+                font-size: 24px;
+            }
+        }
+    }
+    .sec02_content_text{
+        p{
+            font-size: 14px;
+        }
+    }
+
+
+    #sec03 .side_content_wrap{
+        position: relative;
+        background-color: #ECECEC;
+        width: 100vw;
+    }
+
+    #sec03 .side_content_wrap .side_content .side_content_title h1{
+        color:#333333;
+    }
+    #sec03 .side_content_wrap .side_content .side_content_text p{
+        color:#333333;
+        &:last-child{
+            font-weight: 900;
+        }
+    }
+    #sec03 .side_content_wrap .side_content .side_content_text span{
+        background-color: #333333;
+    }
+
+
+
+
+
+
+
+    .footer_logo{
+        padding: 25px 0;
+    }
+    .footer_content{
+        padding: 25px 0;
+        p{
+            font-size: 14px;
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+}

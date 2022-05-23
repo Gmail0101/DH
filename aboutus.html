@@ -38,9 +38,8 @@
 
             <div class="gnb">
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="./images/logo/logo.png" alt="로고">
-                    </a>
+                    <img onclick="location.href='index.html';" class="visible-lg visible-md visible-sm" src="./images/logo/logo.png" alt="로고">
+                    <img onclick="location.href='index.html';" class="visible-xs" src="./images/logo/320/logo.png" alt="로고">
                 </div>
                 <div class="gnbmenu">
                     <input class="burger-check" type="checkbox" id="burger-check"/>
@@ -86,7 +85,8 @@
                     <div class="col-lg-12">
                         <div class="sec01_content_wrap">
                             <div class="sec01_content_img">
-                                <img class="MaxIMG" src="./images/about/about_img0001.png" alt="이미지">
+                                <img class="visible-lg visible-md sivible-sm MaxIMG" src="./images/about/about_img0001.png" alt="이미지">
+                                <img class="visible-xs MaxIMG visualIMG" src="./images/about/320/about_img0001.png" alt="이미지">
                             </div>
 
                             <div class="sec01_content_text">
@@ -213,17 +213,20 @@
         </div>
 
 
+
+        
         <div class="section fp-auto-height" id="section6">
             <div class="footer">
               <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="footer_logo">
-                                <img src="./images/logo/footer_logo.png" alt="로고이미지">
+                                <img class="visible-lg visible-md visible-sm" src="./images/logo/footer_logo.png" alt="로고이미지">
+                                <img class="visible-xs" src="./images/main/320/footer_logo.png" alt="로고이미지">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pd-reset">
                             <div class="footer_content">
                                 <p>주소 : 제주시 애조로 1228, 2층</p>
                                 <p>분양대행 : (주)디바인힐 | 문의 : <span class="footer_phone">1533-7174</span></p>

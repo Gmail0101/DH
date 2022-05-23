@@ -23,6 +23,10 @@
     <!-- Main Style CSS-->
     <link href="./css/ctype.min.css" rel="stylesheet" type="text/css"/>
 
+    <!--scrolloverflow js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/scrolloverflow.min.js"></script>
+
+
 
 
 </head>
@@ -37,9 +41,8 @@
         <div class="section section_01_bg" id="gnb-po-r">
             <div class="gnb">
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="./images/logo/logo.png" alt="로고">
-                    </a>
+                    <img onclick="location.href='index.html';" class="visible-lg visible-md visible-sm" src="./images/logo/logo.png" alt="로고">
+                    <img onclick="location.href='index.html';" class="visible-xs" src="./images/logo/320/logo.png" alt="로고">
                 </div>
                 <div class="gnbmenu">
                     <input class="burger-check" type="checkbox" id="burger-check"/>
@@ -87,7 +90,7 @@
 
 
 
-        <div class="section">
+        <div class="section fp-auto-heigh fp-auto-height-responsive">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -98,7 +101,8 @@
                     <div class="col-lg-12">
                         <div class="col-lg-8">
                             <div class="sec02_images">
-                                <img class="MaxIMG" src="./images/ctype/ctype_sec2_img01.png" alt="이미지">
+                                <img class="visible-lg visible-md MaxIMG" src="./images/ctype/ctype_sec2_img01.png" alt="이미지">
+                                <img class="visible-sm visible-xs MaxIMG" src="./images/ctype/768/ctype_sec2_img01.png" alt="이미지">
                             </div>
                             <div class="sec02_content_text">
                                 <p>- 1층과 2층 분리형 세대 수익형 빌리지</p>
@@ -107,7 +111,8 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="sec02_images">
-                                <img class="MaxIMG" src="./images/ctype/ctype_sec2_img02.png" alt="이미지">
+                                <img class="visible-lg visible-md MaxIMG" src="./images/ctype/ctype_sec2_img02.png" alt="이미지">
+                                <img class="visible-sm visible-xs MaxIMG" src="./images/ctype/768/ctype_sec2_img02.png" alt="이미지">
                             </div>
                             <div class="sec02_content_text">
                                 <p>▲ 제주 바다 뷰</p>
@@ -120,7 +125,7 @@
 
 
 
-        <div class="section" id="sec03">
+        <div class="section fp-auto-heigh fp-auto-height-responsive" id="sec03">
 
             <aside class="side_content_wrap">
                 <div class="side_content text-center">
@@ -208,26 +213,27 @@
 
         <div class="section fp-auto-height" id="section6">
             <div class="footer">
-              <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="col-lg-6">
-                            <div class="footer_logo">
-                                <img src="./images/logo/footer_logo.png" alt="로고이미지">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="footer_content">
-                                <p>주소 : 제주시 애조로 1228, 2층</p>
-                                <p>분양대행 : (주)디바인힐 | 문의 : <span class="footer_phone">1533-7174</span></p>
-                                <p>&nbsp;</p>
-                                <p>Copyright © DIVINE HILLS. All rights reserved.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="footer_logo">
+                                  <img class="visible-lg visible-md visible-sm" src="./images/logo/footer_logo.png" alt="로고이미지">
+                                  <img class="visible-xs" src="./images/main/320/footer_logo.png" alt="로고이미지">
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pd-reset">
+                              <div class="footer_content">
+                                  <p>주소 : 제주시 애조로 1228, 2층</p>
+                                  <p>분양대행 : (주)디바인힐 | 문의 : <span class="footer_phone">1533-7174</span></p>
+                                  <p>&nbsp;</p>
+                                  <p>Copyright © DIVINE HILLS. All rights reserved.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
         </div>
 
         
@@ -243,7 +249,8 @@
         scrollHorizontally: true,
         fitToSection: true,
         scrollingSpeed: 500,
-        responsiveWidth: 767,       // 모바일 fullpage 비활성화 767px 이하 
+        responsiveWidth: 767,       // 모바일 fullpage 비활성화 767px 이하
+        scrollOverflow: true,
     })
     </script>
     
